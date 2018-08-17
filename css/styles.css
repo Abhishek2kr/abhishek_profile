@@ -1,3 +1,4 @@
+
 *{
  box-sizing: border-box;
 }
@@ -102,7 +103,18 @@ body{
 .navbar-header button.navbar-toggle{
 	clear: both;
 	margin-top: -30px; 
-}	
+}
+
+/*#collapsable-nav a {
+	font-size: 1.2em;
+}*/
+
+/*For Icon and menu name after the toggle unlocked*/
+#collapsable-nav a span{
+	font-size: 1em;
+	margin-right: 5px;
+}
+
 
 /*For large device only*/
 @media(min-width: 1200px){
@@ -143,5 +155,22 @@ body{
 
      .navbar-brand p img {
      	height: 20px;
+     }
+     
+     #call-btn > a{/*This is for Ping me in mobile size*/
+           display: block;
+           background-color: #f6b319;
+           margin:0 20px;
+           color: #951C49;
+           padding: 10px;
+           border: 2px solid #fff;
+           font-size: 1.2em; 
+     }
+      /*This is for * I develope in mobile size*/
+     #xs-deliver{
+     	margin-top: 10px;
+     	font-size: .7em;
+     	letter-spacing: .1em;
+     	text-transform: uppercase;
      }
 }
