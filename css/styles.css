@@ -192,6 +192,16 @@ body{
 #skills-catagories-title + div{
 	margin-bottom: 50px;
 }
+
+/*My skills page end*/
+
+/*Single Catagory Start*/
+ .skill-item-title{   /*Margin between Language name and details */
+  margin-bottom: 25px;
+ }
+
+
+/*Single Catagory End*/
 /*Footer Start*/
 .panel-footer{
    margin-top: 30px;
