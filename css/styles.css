@@ -330,4 +330,15 @@ body{
          padding-top: 5px;
          font-size: 6vw;
 	}
+
+    /*Defining own column*/
+    .col-xxs-12{
+    	position: relative;
+    	min-height: : 1px;
+    	padding-left: 15px;
+    	padding-right: 15px;
+    	float: left;
+    	width: 100%;
+    }
+
 }
