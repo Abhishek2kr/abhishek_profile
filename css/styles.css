@@ -245,7 +245,7 @@ body{
 
     .container .jumbotron{
 	background: url('../data/Capture992.jpg') no-repeat;
-	height: 521px;
+	height: 430px;
 }
 
 }
@@ -255,7 +255,7 @@ body{
    .jumbotron{
 	background: url('../data/Capture768.jpg') no-repeat;
 	padding: 0;
-	height: 521px;/*This will be according to the image height*/
+	height: 332px;/*This will be according to the image height*/
  }
 }
 
